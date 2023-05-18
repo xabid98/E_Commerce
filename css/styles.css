@@ -75,3 +75,217 @@
     color: black;
 
 }
+.products{
+    display: flex;
+
+}
+.products-list{
+    width: 300px;
+    border-right:1px solid  #E9EAEC;
+
+
+}
+.products-list ul{
+    margin: 20px auto;
+    border-right:1px solid  #E9EAEC;
+    list-style: none;
+
+}
+.products-list-item {
+    padding: 7px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.products-list-item a{
+    text-decoration: none;   
+    color: black; 
+    display: block;
+}
+
+.iphone-14{
+    display: flex;
+    width: 892px;
+    height: 344px;
+    background-color: black;
+    margin: 3rem;
+    color: white;
+
+}
+.iphone-14-description{
+    margin-left: 4rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.iphone-14-description-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.iphone-14-description-title img{
+    padding-right: 10px;
+}
+
+.iphone-14-description h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.shopNow{
+    display: flex;
+    align-items: center;
+    height: 30px;
+
+}
+.iphone-14-description a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+
+}
+.today{
+    margin: 5rem;
+    
+}
+
+.today-title{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    color: #DF2648;
+}
+.redcard{
+    width: 20px;
+    height: 40px;
+    background-color: #DF2648;
+    margin-right: 10px;
+}
+
+.flashsales{
+    margin: 10px;
+
+}
+
+.cards{
+    display: flex;
+    height:400px ;
+
+   
+}
+.card{
+    position: relative;
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 250px;
+    margin: 10px;
+    border:1px solid
+}
+.discount{
+    position: absolute;
+    top:12px;
+    left: 12px;
+    width: 55px;
+    height: 26px;
+    background-color: #DB4444;
+    text-align: center;
+    line-height: 26px;
+
+}
+.today-card-product{
+    position: absolute;
+    top:49px;
+    left: 49px;
+    Width:172px;
+    Height:152px;
+
+}
+
+.elipse_1,.elipse_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.elipse_1{
+    top:12px;
+    right: 12px;
+}
+
+.elipse_2{
+    top:42px;
+    right: 12px;
+}
+
+.elipse_2 img{
+    width:19px ;
+    height:16px ;
+
+
+}
+.descriptionCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -96px;
+    height: 80px;
+
+}
+.today-card-product-price{
+    color: #DF2648
+}
+
+.today-card-product-nodiscount{
+    color: black;
+    opacity: 50%;
+    margin-left: 5px;
+    text-decoration: line-through;
+}
+.assessment{
+    display: flex;
+
+}
+.assessment p{
+    color: black;
+    opacity: 50%;
+    margin-left: 5px;
+
+}
+
+.categories{
+    margin: 5rem;
+
+}
+
+.categories-title{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    color: #DF2648;
+}
+.categories-cards{
+    display: flex;
+}
+.categories-card{
+    border: 1px solid grey;
+    width: 175px;
+    height: 175px;
+    margin: 10px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
