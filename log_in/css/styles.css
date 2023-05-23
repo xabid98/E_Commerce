@@ -76,38 +76,39 @@
 }
 main{
 display: flex;
-border: 1px solid;
 height: 981px;
+width: 100%;
+
 
 }
 .mobileimg{
     margin-top:60px ;
 }
-.createaccountdiv{
+.log_indiv{
     display: flex;
     flex-direction: column;
     margin-top: 125px; 
     margin-left: 100px;
     height:706px ;
 }
-.createaccountdiv h1{
+.log_indiv h1{
     font-size: 36px;
     font-weight: 500;
     margin-bottom:24px ;
 }
-.createaccountdiv p{
+.log_indiv p{
     font-size: 16px;
     font-weight: 400;
     margin-bottom:80px ;
 
 }
-.createaccountdiv form{
+.log_indiv form{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 
 }
-.createaccountdiv  input {
+.log_indiv  input {
     width: 370px;
     height: 32px;
     border: none;
@@ -116,59 +117,37 @@ height: 981px;
     outline: none;
 
 }
-.createaccountbutton{
-    color: white;
-    width:371px ;
-    height:56px ;
-    font-size: 16px;
-    font-weight: 500;
-    background-color: rgba(219, 68, 68, 1);
-    border: none;
-    margin-bottom:16px ;
-    border-radius: 4px;
 
-}
-.googlebutton{
+.log_indiv-formbutton{
     display: flex;
-    justify-content: center;
     align-items: center;
-    width:371px ;
+    justify-content: space-between;
+
+}
+
+.log_indiv-formbutton button{
+    width:143px ;
     height:56px ;
-    font-size: 16px;
-    font-weight: 500;
-    border-color: #828282;
+    padding:16px, 48px, 16px, 48px;
+    font-size:16px ;
+    font-weight:500 ;
+    color: white;
+    background-color:rgba(219, 68, 68, 1);  
+    border: none;  
     border-radius: 4px;
-    background-color: inherit;
-    margin-bottom:34px ;
 
+    
 }
-.googlebutton img{
-    margin-right: 15px;
-}
-
-.createaccountdiv_login{
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 16px;
-    font-weight: 400;
-    margin-right: 16px;
-    text-align: center;
-
-
-}
-
-.createaccountdiv_login-link{
-    text-decoration: none;
-    color: black;
-    border-bottom: 1px solid #828282;
-    font-weight: 500;
-    margin-left: 16px;
-    padding-bottom:  4px;
-
+.log_indiv-formbutton a{
+    color:  rgba(219, 68, 68, 1);
+    font-size:16px ;
+    font-weight:400 ;
+    border: none;
 }
 footer{
     height:440px;
     background-color: black;
-    width: 1;
+    width: 100%;
   }
   .topdiv{
     width: 1440px;
