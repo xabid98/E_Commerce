@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    
+}
+
+.top-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2.5rem;
+    background-color: black;
+    color: white;
+}
+
+.link-shop{
+    color:inherit;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.language{
+    margin-left: 200px;
+
+
+}
+.top-header-icono{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    width: 100%;
+    height: 5rem;
+    background-color: white;
+    border-bottom:1px solid  #E9EAEC;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 20px;
+
+}
+.nav-list{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.nav-list-item{
+    list-style: none;
+}
+
+.nav-list-item a:hover{
+    border-bottom:gray ;
+}
+.nav-list-item a{
+    text-decoration: none;
+    color: black;
+
+
+}
+.div-search{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.search{
+    width: 250px;
+    padding-left: 10px;
+    height: 2rem;
+    background-color: #F4F4F6;
+    border-radius: 5px;
+    border:none
+}
+.wihslist-cart{
+    color: black;
+
+}
+.account_dropdown{
+    position: relative;
+
+}
+.account_dropdowndiv{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 224px;
+    height: 0px;
+    opacity: 0;
+    background: linear-gradient(135deg, #C9B2F3 0%, #625875 50%, #312b3b 80%, #201c27 100%);
+}
+
+.account_dropdowndiv div{ 
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+
+
+
+}
+.account_dropdowndiv div img{ 
+    color: #000000;
+}
+.account_dropdowndiv div p{ 
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-left: 16px;
+
+
+}
+.account_dropdown:hover .account_dropdowndiv{
+    opacity: 1;
+    height: 208px;
+
+}
+
+
+.wishlist{
+    margin-top: 80px;
+}
+
+.flashsales{
+    margin: 10px;
+
+}
+.flashsales h1{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.wishlist-flashsales{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 135px;
+    width: 1170px; ;
+}
+
+.wishlist-flashsales button{
+
+    background-color: white;
+    width:223px ;
+    height:56px ;
+    border:1px solid gray;
+    border-radius: 3px;
+}
+
+.cards{
+    display: flex;
+    margin: 70px 135px ;
+    height:400px ;
+
+   
+}
+.card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 250px;
+    margin-right: 30px;
+    border:1px solid
+}
+.discount{
+    position: absolute;
+    top:12px;
+    left: 12px;
+    width: 55px;
+    height: 26px;
+    background-color: #DB4444;
+    text-align: center;
+    line-height: 26px;
+    color: white;
+    border-radius: 3px;
+
+}
+
+.elipse_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.elipse_1{
+    top:20px;
+    right: 21px;
+}
+.wishlist-card-add{
+    position: absolute;   
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 41px;
+    background-color: #000000;
+    color:white;
+
+
+}
+
+.wishlist-card-add p{
+    font-size:12px ;
+    font-weight: 400;
+    margin-left: 8px;
+
+
+}
+
+.descriptionCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    left: 0;
+    bottom: -76px;
+    height: 60px;
+
+}
+.wishlist-card-product-price{
+    color: #DF2648
+}
+
+.wishlist-card-product-nodiscount{
+    color: black;
+    opacity: 50%;
+    margin-left: 5px;
+    text-decoration: line-through;
+}
+.assessment{
+    display: flex;
+
+}
+.assessment p{
+    color: black;
+    opacity: 50%;
+    margin-left: 5px;
+
+}
+
+.just_for_you-title{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    color: #DF2648;
+}
+.redcard{
+    width: 20px;
+    height: 40px;
+    background-color: #DF2648;
+    margin-right: 10px;
+}
+.new{
+    position: absolute;
+    top:12px;
+    left: 12px;
+    width: 55px;
+    height: 26px;
+    background-color:#00FF66   ;
+    color: white;
+    text-align: center;
+    line-height: 26px;
+
+}
+
+footer{
+    height:440px;
+    background-color: black;
+    width: 1;
+  }
+  .topdiv{
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    height: 376px;
+    color: white;
+    display: flex;
+   
+}
+.topdiv h1,.topdiv h2{
+    margin-bottom: 24px;
+
+}
+
+.topdiv h1{
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.topdiv h2{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.topdiv p{
+    margin-bottom: 16px;
+
+}
+.topdiv-exclusive{
+    position: absolute;
+    top:80px ;
+    left:135px ;
+    width: 215px;
+}
+.topdiv-exclusive input{
+    background-color: #000000;
+    border: 1px solid white;
+    width: 100%;
+    height:30px ;
+
+}
+.topdiv-support{
+    position: absolute;
+    top:80px ;
+    left:439px ;
+    width: 175px;
+}
+.topdiv-account{
+    position: absolute;
+    top:80px ;
+    left:701px ;
+    width: 123px;
+}
+.topdiv-quicklink{
+    position: absolute;
+    top:80px ;
+    left:911px ;
+    width: 109px;
+}
+.topdiv-download{
+    position: absolute;
+    top:80px ;
+    left:1107px ;
+    width: 194px;
+}
+.topdiv-download p{
+    opacity: 0.7;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+.topdiv-download-social{
+    position: relative;
+    width:193px ;
+    height:76px ;
+
+}
+
+
+.topdiv-download-social-qr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:76px ;
+
+}
+.topdiv-download-social-playstore{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.topdiv-download-social-appstore{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.bottondiv{
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    height: 64px;
+    color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottondiv div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7.67px;
+    Width:16.67px;
+    Height:16.67px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+}
