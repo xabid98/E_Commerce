@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+
+section{
+    display: flex;
+    margin:80px 135px;
+    width: 1170px;
+
+}
+.sectionhead{
+    margin:80px 135px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sectionhead span{
+    color: rgba(219, 68, 68, 1);
+}
+
+.cart-homelink{
+    text-decoration: none;
+    color: black;
+    opacity: .5;
+}
+
+
+.accountlist{
+    width: 300px;
+
+}
+
+li{
+    list-style: none;
+}
+.accountlist-title a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+.accountlist-items,.orderslist-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:16px 35px ;
+    width: 165px;
+    opacity: .5;
+}
+.accountlist-items{
+    height:88px;
+
+}
+.orderslist-items{
+    height:56px;
+
+}
+
+.accountform{
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+    width:870px;
+    height:630px;
+}
+.accountform input{
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    height:50px ;
+
+}
+.accountform h1{
+    font-weight: 500;
+    font-size:20px    ;
+    color: rgba(219, 68, 68, 1);
+    margin-left: 80px;
+    margin-top: 40px;    
+    margin-bottom: 16px;
+
+}
+.accountform form{
+    width: 710px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.accountform-inf{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 24px;
+
+
+}
+.accountform-inf-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:330px;
+    height:86px ;
+
+
+}
+.accountform-password{
+    display: flex;
+    flex-direction: column;
+
+}
+.accountform-password input{
+    width: 100%;
+    margin-bottom: 16px;
+}
+.accountform-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    width: 303px;
+    height:56px ;
+}
+.accountform-button-cancel{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.accountform-button-save{
+    cursor: pointer;
+    width: 214px;
+    height: 56px;
+    background-color: rgba(219, 68, 68, 1);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    
+}
