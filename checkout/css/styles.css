@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+
+section{
+    
+    margin:80px 135px;
+    width: 1170px;
+
+}
+.cart-homelink{
+    text-decoration: none;
+    color: black;
+    opacity: .5;
+}
+
+
+section h1{
+    margin-top:80px ;
+    font-size: 36px;
+    font-weight: 500;
+
+}
+.billingdetails{
+    margin-top:48px ;
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.billingdetails-form{
+    
+    width:470px ;
+    height: 814px;
+
+}
+
+
+.billingdetails-form-input{
+    display: flex;
+    flex-direction: column;
+    height: 82px;
+    margin-bottom: 32px;
+}
+.billingdetails-form-input label{
+    line-height: 32px;
+    height: 32px;
+    background-color: white;
+    opacity: .4;
+}
+.billingdetails-form-input input{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius:4px ;
+    border: none;
+}
+.billingdetails-pay{
+
+    width:527px ;
+    height: 600px;
+}
+.checkbox{
+    cursor: pointer;
+    width: 24px;    
+    height: 24px;
+    border: 2px solid #888;
+}
+.checkbox:checked {
+    accent-color: rgb(219, 68, 68);
+  }
+  .divcheckbox{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 370px;    
+    
+}
+
+  .divcheckbox label{
+    font-size: 16px;
+  }
+
+.billingdetails-paydiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 425px;
+    height: 140px;
+    margin-bottom: 32px;
+
+}
+.billingdetails-paydiv-product{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.billingdetails-paydiv-product-description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 347px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.details-paydiv-product-pricediv{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+
+}
+.details-paydiv-product-pricedivborderbotton{
+    border-bottom: 1px solid gray;
+    padding-bottom: 16px;
+
+}
+.billingdetails-pay-form-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 28px;
+    margin-bottom: 32px;    
+}
+.billingdetails-pay-form-div-cash,.billingdetails-pay-form-div-bank{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 28px;
+    font-size: 16px;
+
+}
+
+.billingdetails-pay-form-div-bank{
+    width: 80px;
+}
+
+.billingdetails-pay-form-div-cash{
+    width: 154px;
+
+}
+.billingdetails-pay-form-div input{
+    height: 24px;
+    width: 24px;
+}
+
+.billingdetails-pay-form-coupon{
+    display: flex;
+    justify-content: space-between;
+    width: 527px;
+    height: 56px;
+    margin-bottom: 32px;
+}
+
+.billingdetails-pay-form-coupon input{
+    width: 300px;
+    border: 2px solid #828282;
+    border-radius: 4px;
+    outline: none;
+
+}
+
+.billingdetails-pay-form-coupon button{
+    width: 211px;
+    background-color: rgba(219, 68, 68, 1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+
+
+}
+.billingdetails-pay-form-placeorderbutton{
+    
+    width: 190px;
+    height: 56px;
+    background-color: rgba(219, 68, 68, 1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+}
