@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+
+section{
+    
+    margin:80px 135px;
+    width: 1170px;
+
+}
+.cart-homelink{
+    text-decoration: none;
+    color: black;
+    opacity: .5;
+}
+
+.ourstory{
+    display: flex;
+    justify-content: space-between;
+    width: 1205px;    
+}
+
+
+.ourstory-text{
+    display: flex;
+    flex-direction: column;
+
+}
+.ourstory-text h1{
+    font-size: 54px;
+    font-weight:600 ;
+    margin-bottom: 40px;
+
+}
+.ourstory-text p{
+    font-size: 16px;
+    font-weight:400 ;
+    margin-bottom: 24px;
+
+}
+.ourstory img{
+    margin-left: 75px;
+    width: 705px;    
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 230px;
+
+}
+.numbers-card {
+    position: relative;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    width: 270px;
+    height: 230px;
+
+}
+.numbers-card-circborder{
+    position: absolute;
+    top: 32px;
+    left: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+   
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+   
+}
+.numbers-card-circ{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+
+}
+.numbers-card h1{
+    position: absolute;
+    top: 136px;
+    left: 103px;
+    font-size: 32px;
+    font-weight: 700px;
+}
+.numbers-card p{
+    position: absolute;
+    top: 174px;
+    left: 35px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.numbers-cardred{
+    background-color: rgba(219, 68, 68, 1);
+    color: white;
+}
+.numbers-card-circred{
+    background-color: white;
+
+}
+.members{
+    display: flex;
+    justify-content:space-between ;
+    width:1170px;
+
+}
+.members-card img{
+    margin-bottom: 32px;
+}
+.members-card h1{
+    margin-bottom: 8px;
+}
+.members-card p{
+    margin-bottom: 20px;
+}
+
+.members-card-social{
+    display: flex;
+    justify-content: space-between;
+    width: 104px;
+
+}

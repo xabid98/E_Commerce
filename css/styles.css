@@ -294,7 +294,7 @@ font-size: 36px;
     align-items: center;
 }
 .month{
-    margin: 6rem;
+    margin: 5rem;
 }
 
 .month-title{
@@ -640,11 +640,10 @@ font-size: 36px;
   footer{
     height:440px;
     background-color: black;
-    width: 1;
+    width: 100%;
   }
   .topdiv{
-    width: 1440px;
-    margin: 0 auto;
+    margin: 0 ;
     position: relative;
     height: 376px;
     color: white;

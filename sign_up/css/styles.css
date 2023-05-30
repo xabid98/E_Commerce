@@ -76,7 +76,6 @@
 }
 main{
 display: flex;
-border: 1px solid;
 height: 981px;
 
 }
@@ -168,10 +167,9 @@ height: 981px;
 footer{
     height:440px;
     background-color: black;
-    width: 1;
+    width: 100%;
   }
   .topdiv{
-    width: 1440px;
     margin: 0 auto;
     position: relative;
     height: 376px;
