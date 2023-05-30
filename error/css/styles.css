@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+
+section{
+    display: flex;
+    margin:80px 135px;
+    width: 1170px;
+
+}
+.cart-homelink{
+    text-decoration: none;
+    color: black;
+    opacity: .5;
+}
+.error{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center; 
+}
+.errormessage{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content:center ;
+    width:829px;
+    height:179px;
+}
+.errormessage h1{
+
+    font-size: 110px;
+    font-weight: 500;
+
+}
+.errormessage p{
+
+    font-size: 16px;
+    font-weight: 400;
+
+}
+button{
+    color: white;
+    background-color: rgba(219, 68, 68, 1);
+    width:254px;
+    height:56px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 80px;
+    margin-bottom: 140px;
+}
+.buttonhome{
+    text-decoration: none;
+    color: white;
+}
